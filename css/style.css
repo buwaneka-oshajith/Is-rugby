@@ -44,6 +44,14 @@ p {
     font-size: 50px;
   }
 }
+.display-2 {
+  font-size: 50px;
+}
+@media (max-width: 575px) {
+  .display-2 {
+    font-size: 25px;
+  }
+}
 
 .display-3 {
   font-size: 40px;
@@ -57,7 +65,7 @@ p {
 
 h1, h2, h3, h4, h5, h6 {
   color: #000;
-  font-family: "Noto Sans", sans-serif;
+  font-family: 'Roboto', sans-serif;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -72,7 +80,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-size: 44px;
+  font-size: 40px;
 }
 @media (max-width: 575px) {
   h2, .h2 {
@@ -984,7 +992,7 @@ footer .overlay-image {
 
   /* Styles for the individual slides */
   .imgslide {
-    flex: 0 0 33.33%; /* Three images shown at a time */
+    flex: 0 0 33.3333333333333333333333333333333333%; /* Three images shown at a time */
   }
 
   /* Responsive styles */
@@ -1053,7 +1061,7 @@ footer .overlay-image {
     /* Change the color of the "+" symbol */
     .career-info h1#career-counter::after {
       content: "+";
-      color: red; /* Change the color to your desired color */
+      color: #E1C983; /* Change the color to your desired color */
       margin-left: 10px;
     }
     .video-container {
