@@ -722,6 +722,15 @@ textarea.form-control {
 .hover-shadow:hover::before {
   opacity: 1;
 }
+@media (max-width: 991px) {
+  #logo {
+    max-width: 150px; /* Adjust the size as needed */
+  }
+}
+#logo.small {
+  max-width: 150px; /* Adjust the size as needed */
+  transition: max-width 0.3s ease; /* Add transition effect for smooth resizing */
+}
 
 /* pricing */
 .bottom-shape {

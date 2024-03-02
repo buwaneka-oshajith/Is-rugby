@@ -168,3 +168,14 @@
      if (count >= 63) clearInterval(interval);
    }, 50); // Count every 100ms
 
+   /* scrolling logo chnage */
+   $(document).ready(function() {
+    $(window).scroll(function() {
+      var scroll = $(window).scrollTop();
+      if (scroll > 50) { /* Change 50 to the desired scroll amount when you want the effect to trigger */
+        $('#logo').addClass('small');
+      } else {
+        $('#logo').removeClass('small');
+      }
+    });
+  });
